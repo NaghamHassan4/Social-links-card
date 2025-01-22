@@ -1,0 +1,81 @@
+@use '_colors.scss' as *;
+
+body {
+    background-color: $page-bg;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 616px;
+    width: 388px;
+    background-color: $card-bg;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    top: 50px; 
+}
+img {
+    width: 89px;
+    height: 89px;
+    border-radius: 50%;
+}
+h2 {
+    color: $white-text;
+    margin: 10px; 
+    font-weight:700 ;
+    font-size: 24px;
+
+}
+h5 {
+    color: $green-text;
+    margin: 5px;
+    font-weight:600 ;
+    font-size: 14px;
+
+
+}
+p {
+    color: $white-text;
+    margin-top: 20px;
+    font-weight:400 ;
+    font-size: 13.5px;
+
+}
+button {
+    background-color: $btn;
+    color: $white-text;
+    font-weight:700 ;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 303px;
+    height: 45px;
+    cursor: pointer;
+    &:hover {
+        background-color: $green-text;
+        color: $black-text;
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        width: 300px;
+    }
+    button {
+        width: 250px;
+    }
+
+}
+
