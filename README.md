@@ -8,7 +8,7 @@ This project is a simple, responsive personal card built using HTML, CSS, and SA
 - Styled using SASS for easy maintainability.
 
 ## Requirements
-To sún this project, ensure you have the following installed on your system:
+To run this project, ensure you have the following installed on your system:
 - A modern web browser (e.g., Chrome, Firefox, Edge).
 - Node.js (optional, for SASS compilation).
 - A code editor (eg. Visual Studio Code) for making any changes.
